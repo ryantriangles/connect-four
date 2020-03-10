@@ -23,7 +23,7 @@ def test_vertical_win():
     assert board.check_vertical_win()
 
 
-def test_northwest_vertical_win():
+def test_northwest_diagonal_win():
     board = main.Board()
     board.drop_token(0)
     board.drop_token(0)
@@ -39,7 +39,7 @@ def test_northwest_vertical_win():
     assert board.check_northwest_diagonal_win()
 
 
-def test_northeast_vertical_win():
+def test_northeast_diagonal_win():
     board = main.Board()
     board.drop_token(0)
     board.drop_token(1)
