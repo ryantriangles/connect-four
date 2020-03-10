@@ -3,9 +3,8 @@
 A quick and simple terminal-based implementation of Connect Four for
 two players sharing a keyboard.
 
-The board is represented as a two-dimensional array in which 0
-represents an empty slot, a 1 represents the first player's token,
-and a 2 represents the second player's token.
+The board is represented as a two-dimensional array in which a 0
+represents an empty slot and a 1 or a 2 represents a player token.
 """
 from typing import Generator, Tuple, List
 
